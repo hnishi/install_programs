@@ -3,6 +3,7 @@
 tar -zxvf gromacs-4.6.6.orig.tar.gz
 cd gromacs-4.6.6
 
+cd src/contrib/fftw/CMakeLists.txt src/contrib/fftw/CMakeLists.txt_org
 vi src/contrib/fftw/CMakeLists.txt
 
 mkdir -p build1_serial_double
